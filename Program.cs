@@ -5,7 +5,7 @@ namespace ChatterinoUpdater
 {
     internal class Program : Updater
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var temp = Path.GetTempPath();
             var path = temp + "chatterino-windows-x86-64.zip";
